@@ -59,7 +59,7 @@ git clone <GIT_URL> .
     cd ~/mb_project
     colcon build --symlink-install
     source install/setup.bash
-    ```
+  ```
 
 #### Part B: Raspberry Pi Setup (Docker)
 
