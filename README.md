@@ -2,6 +2,8 @@
 
 This project implements a distributed ROS 2 (Jazzy Jalisco) system for the Thymio II robot. It performs Simultaneous Localization and Mapping (SLAM) and autonomous navigation with obstacle avoidance using a LiDAR sensor.
 
+[Demo video](https://youtu.be/wiTGZP30WtE)
+
 The architecture splits the computational load and power consumption:
 * **Raspberry Pi :** Handles the LiDAR driver and network communication inside a Docker container.
 * **PC / Workstation :** Handles the Thymio control (via USB Dongle), SLAM algorithms, Odometry calculation, and Visualization (RViz).
