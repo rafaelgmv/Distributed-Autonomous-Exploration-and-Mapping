@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating thymio_project.egg-info
+writing thymio_project.egg-info/PKG-INFO
+writing dependency_links to thymio_project.egg-info/dependency_links.txt
+writing entry points to thymio_project.egg-info/entry_points.txt
+writing requirements to thymio_project.egg-info/requires.txt
+writing top-level names to thymio_project.egg-info/top_level.txt
+writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+reading manifest file 'thymio_project.egg-info/SOURCES.txt'
+writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)
+Installing main script to /root/robot_ws/src/thymio_project/install/thymio_project/lib/thymio_project
+
+Installed /root/robot_ws/src/thymio_project/build/thymio_project
+running symlink_data
+creating /root/robot_ws/src/thymio_project/install/thymio_project/share/ament_index
+creating /root/robot_ws/src/thymio_project/install/thymio_project/share/ament_index/resource_index
+creating /root/robot_ws/src/thymio_project/install/thymio_project/share/ament_index/resource_index/packages
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/resource/thymio_project -> /root/robot_ws/src/thymio_project/install/thymio_project/share/ament_index/resource_index/packages
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/package.xml -> /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project
+creating /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/launch
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/launch/thymio.launch.py -> /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/launch
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/launch/pi_hardware.launch.py -> /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/launch
+creating /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/config
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/config/slam_config.yaml -> /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/config
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/config/ps4_pi.yaml -> /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/config
+symbolically linking /root/robot_ws/src/thymio_project/build/thymio_project/config/joystick.yaml -> /root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/config

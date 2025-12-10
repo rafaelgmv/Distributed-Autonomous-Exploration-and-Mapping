@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/joystick.yaml
+config/slam_config.yaml
+launch/pc_server.launch.py
+launch/thymio.launch.py
+resource/thymio_project
+thymio_project/__init__.py
+thymio_project/main.py
+thymio_project.egg-info/PKG-INFO
+thymio_project.egg-info/SOURCES.txt
+thymio_project.egg-info/dependency_links.txt
+thymio_project.egg-info/entry_points.txt
+thymio_project.egg-info/requires.txt
+thymio_project.egg-info/top_level.txt
+thymio_project.egg-info/zip-safe

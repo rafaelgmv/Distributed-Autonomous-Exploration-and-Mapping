@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.004002] (thymio_project) JobQueued: {'identifier': 'thymio_project', 'dependencies': OrderedDict()}
+[0.004546] (thymio_project) JobStarted: {'identifier': 'thymio_project'}
+[0.097587] (-) TimerEvent: {}
+[0.198712] (-) TimerEvent: {}
+[0.300138] (-) TimerEvent: {}
+[0.401358] (-) TimerEvent: {}
+[0.502650] (-) TimerEvent: {}
+[0.603964] (-) TimerEvent: {}
+[0.705357] (-) TimerEvent: {}
+[0.806639] (-) TimerEvent: {}
+[0.909328] (-) TimerEvent: {}
+[1.010535] (-) TimerEvent: {}
+[1.112304] (-) TimerEvent: {}
+[1.213542] (-) TimerEvent: {}
+[1.314938] (-) TimerEvent: {}
+[1.416340] (-) TimerEvent: {}
+[1.517560] (-) TimerEvent: {}
+[1.618664] (-) TimerEvent: {}
+[1.719973] (-) TimerEvent: {}
+[1.821674] (-) TimerEvent: {}
+[1.923107] (-) TimerEvent: {}
+[2.025503] (-) TimerEvent: {}
+[2.127820] (-) TimerEvent: {}
+[2.229473] (-) TimerEvent: {}
+[2.330761] (-) TimerEvent: {}
+[2.432097] (-) TimerEvent: {}
+[2.532997] (-) TimerEvent: {}
+[2.634231] (-) TimerEvent: {}
+[2.735768] (-) TimerEvent: {}
+[2.837200] (-) TimerEvent: {}
+[2.938380] (-) TimerEvent: {}
+[3.040047] (-) TimerEvent: {}
+[3.141203] (-) TimerEvent: {}
+[3.242430] (-) TimerEvent: {}
+[3.343515] (-) TimerEvent: {}
+[3.445013] (-) TimerEvent: {}
+[3.546098] (-) TimerEvent: {}
+[3.647169] (-) TimerEvent: {}
+[3.748411] (-) TimerEvent: {}
+[3.849981] (-) TimerEvent: {}
+[3.951002] (-) TimerEvent: {}
+[4.051980] (-) TimerEvent: {}
+[4.153503] (-) TimerEvent: {}
+[4.254738] (-) TimerEvent: {}
+[4.356085] (-) TimerEvent: {}
+[4.457682] (-) TimerEvent: {}
+[4.558683] (-) TimerEvent: {}
+[4.659954] (-) TimerEvent: {}
+[4.761389] (-) TimerEvent: {}
+[4.862439] (-) TimerEvent: {}
+[4.963510] (-) TimerEvent: {}
+[5.064962] (-) TimerEvent: {}
+[5.166459] (-) TimerEvent: {}
+[5.268402] (-) TimerEvent: {}
+[5.369821] (-) TimerEvent: {}
+[5.471204] (-) TimerEvent: {}
+[5.572871] (-) TimerEvent: {}
+[5.674272] (-) TimerEvent: {}
+[5.775960] (-) TimerEvent: {}
+[5.877627] (-) TimerEvent: {}
+[5.979489] (-) TimerEvent: {}
+[6.081101] (-) TimerEvent: {}
+[6.182706] (-) TimerEvent: {}
+[6.284323] (-) TimerEvent: {}
+[6.386302] (-) TimerEvent: {}
+[6.488467] (-) TimerEvent: {}
+[6.591111] (-) TimerEvent: {}
+[6.693019] (-) TimerEvent: {}
+[6.728651] (thymio_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/robot_ws/src/thymio_project/build/thymio_project/build', '--no-deps', 'symlink_data'], 'cwd': '/root/robot_ws/src/thymio_project/build/thymio_project', 'env': {'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'CYCLONEDDS_URI': 'file:///tmp/cyclone.xml', 'OLDPWD': '/root/robot_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/robot_ws/src/thymio_project/install:/root/robot_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/root/robot_ws/src/thymio_project/install/thymio_project:/root/robot_ws/install/thymio_project:/root/robot_ws/install/ldlidar_stl_ros2:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/robot_ws/src/thymio_project/build/thymio_project', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/robot_ws/src/thymio_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages:/root/robot_ws/src/thymio_project/build/thymio_project:/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages:/root/robot_ws/build/thymio_project:/root/robot_ws/install/thymio_project/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/robot_ws/install/ldlidar_stl_ros2'}, 'shell': False}
+[6.794555] (-) TimerEvent: {}
+[6.895672] (-) TimerEvent: {}
+[6.996761] (-) TimerEvent: {}
+[7.097676] (-) TimerEvent: {}
+[7.198617] (-) TimerEvent: {}
+[7.299224] (-) TimerEvent: {}
+[7.400149] (-) TimerEvent: {}
+[7.501093] (-) TimerEvent: {}
+[7.602025] (-) TimerEvent: {}
+[7.702938] (-) TimerEvent: {}
+[7.803980] (-) TimerEvent: {}
+[7.904895] (-) TimerEvent: {}
+[8.006036] (-) TimerEvent: {}
+[8.107231] (-) TimerEvent: {}
+[8.209296] (-) TimerEvent: {}
+[8.310224] (-) TimerEvent: {}
+[8.411249] (-) TimerEvent: {}
+[8.512184] (-) TimerEvent: {}
+[8.613107] (-) TimerEvent: {}
+[8.716742] (-) TimerEvent: {}
+[8.817658] (-) TimerEvent: {}
+[8.919146] (-) TimerEvent: {}
+[9.020116] (-) TimerEvent: {}
+[9.121219] (-) TimerEvent: {}
+[9.222173] (-) TimerEvent: {}
+[9.281355] (thymio_project) StdoutLine: {'line': b'running develop\n'}
+[9.322364] (-) TimerEvent: {}
+[9.423411] (-) TimerEvent: {}
+[9.524326] (-) TimerEvent: {}
+[9.625281] (-) TimerEvent: {}
+[9.726205] (-) TimerEvent: {}
+[9.827233] (-) TimerEvent: {}
+[9.928132] (-) TimerEvent: {}
+[10.029044] (-) TimerEvent: {}
+[10.130019] (-) TimerEvent: {}
+[10.231073] (-) TimerEvent: {}
+[10.332491] (-) TimerEvent: {}
+[10.433428] (-) TimerEvent: {}
+[10.534431] (-) TimerEvent: {}
+[10.635429] (-) TimerEvent: {}
+[10.736374] (-) TimerEvent: {}
+[10.790966] (thymio_project) StdoutLine: {'line': b'running egg_info\n'}
+[10.836588] (-) TimerEvent: {}
+[10.931498] (thymio_project) StdoutLine: {'line': b'writing thymio_project.egg-info/PKG-INFO\n'}
+[10.933367] (thymio_project) StdoutLine: {'line': b'writing dependency_links to thymio_project.egg-info/dependency_links.txt\n'}
+[10.934980] (thymio_project) StdoutLine: {'line': b'writing entry points to thymio_project.egg-info/entry_points.txt\n'}
+[10.936614] (thymio_project) StdoutLine: {'line': b'writing requirements to thymio_project.egg-info/requires.txt\n'}
+[10.938094] (-) TimerEvent: {}
+[10.938790] (thymio_project) StdoutLine: {'line': b'writing top-level names to thymio_project.egg-info/top_level.txt\n'}
+[11.038464] (-) TimerEvent: {}
+[11.139804] (-) TimerEvent: {}
+[11.238978] (thymio_project) StdoutLine: {'line': b"reading manifest file 'thymio_project.egg-info/SOURCES.txt'\n"}
+[11.240302] (-) TimerEvent: {}
+[11.247496] (thymio_project) StdoutLine: {'line': b"writing manifest file 'thymio_project.egg-info/SOURCES.txt'\n"}
+[11.340514] (-) TimerEvent: {}
+[11.411249] (thymio_project) StdoutLine: {'line': b'running build_ext\n'}
+[11.412802] (thymio_project) StdoutLine: {'line': b'Creating /root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)\n'}
+[11.417557] (thymio_project) StdoutLine: {'line': b'Installing main script to /root/robot_ws/src/thymio_project/install/thymio_project/lib/thymio_project\n'}
+[11.419914] (thymio_project) StdoutLine: {'line': b'\n'}
+[11.421595] (thymio_project) StdoutLine: {'line': b'Installed /root/robot_ws/src/thymio_project/build/thymio_project\n'}
+[11.422453] (thymio_project) StdoutLine: {'line': b'running symlink_data\n'}
+[11.440894] (-) TimerEvent: {}
+[11.542127] (-) TimerEvent: {}
+[11.643556] (-) TimerEvent: {}
+[11.677825] (thymio_project) CommandEnded: {'returncode': 0}
+[11.748382] (-) TimerEvent: {}
+[11.777244] (thymio_project) JobEnded: {'identifier': 'thymio_project', 'rc': 0}
+[11.783231] (-) EventReactorShutdown: {}

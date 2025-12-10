@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing thymio_project.egg-info/PKG-INFO
+writing dependency_links to thymio_project.egg-info/dependency_links.txt
+writing entry points to thymio_project.egg-info/entry_points.txt
+writing requirements to thymio_project.egg-info/requires.txt
+writing top-level names to thymio_project.egg-info/top_level.txt
+reading manifest file 'thymio_project.egg-info/SOURCES.txt'
+writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rafael/mb_project/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)
+Installing main script to /home/rafael/mb_project/install/thymio_project/lib/thymio_project
+
+Installed /home/rafael/mb_project/build/thymio_project
+running symlink_data
+creating /home/rafael/mb_project/install/thymio_project/share/thymio_project/launch
+symbolically linking /home/rafael/mb_project/build/thymio_project/launch/thymio.launch.py -> /home/rafael/mb_project/install/thymio_project/share/thymio_project/launch

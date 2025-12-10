@@ -1,0 +1,21 @@
+teleop_twist_joy_node:
+  ros__parameters:
+    # --- CONFIGURAÇÃO PS4 (CABO USB) ---
+    
+    # EIXOS (Verifica no 'ros2 topic echo /joy')
+    # Geralmente: 1 = Stick Esq Vertical | 3 = Stick Dir Horizontal
+    # Se o 1 não der, tenta o 5 ou o 2.
+    axis_linear: 2
+    axis_angular: 3
+    
+    # VELOCIDADES (Aumentei para garantir que ele arranca)
+    scale_linear: 0.20   # 20 cm/s
+    scale_angular: 1.5   # Rotação rápida
+    
+    # SEGURANÇA (Botão X)
+    enable_button: 0
+    require_enable_button: true
+    
+    # --- A CURA PARA O LAG ---
+    # Isto faz o comando "falar" constantemente, eliminando o atraso de 2s
+    autorepeat_rate: 20.0

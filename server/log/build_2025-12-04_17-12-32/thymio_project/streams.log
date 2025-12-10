@@ -1,0 +1,19 @@
+[1.400s] Invoking command in '/home/rafael/mb_project/build/thymio_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rafael/mb_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafael/mb_project/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafael/mb_project/build/thymio_project/build --no-deps symlink_data
+[1.805s] running develop
+[2.042s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.042s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.090s] running egg_info
+[2.117s] writing thymio_project.egg-info/PKG-INFO
+[2.117s] writing dependency_links to thymio_project.egg-info/dependency_links.txt
+[2.117s] writing entry points to thymio_project.egg-info/entry_points.txt
+[2.118s] writing requirements to thymio_project.egg-info/requires.txt
+[2.118s] writing top-level names to thymio_project.egg-info/top_level.txt
+[2.172s] reading manifest file 'thymio_project.egg-info/SOURCES.txt'
+[2.182s] writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+[2.210s] running build_ext
+[2.210s] Creating /home/rafael/mb_project/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)
+[2.211s] Installing main script to /home/rafael/mb_project/install/thymio_project/lib/thymio_project
+[2.212s] 
+[2.212s] Installed /home/rafael/mb_project/build/thymio_project
+[2.212s] running symlink_data
+[2.248s] Invoked command in '/home/rafael/mb_project/build/thymio_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rafael/mb_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafael/mb_project/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafael/mb_project/build/thymio_project/build --no-deps symlink_data

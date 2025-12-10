@@ -1,0 +1,18 @@
+[3.017s] Invoking command in '/root/robot_ws/build/thymio_project': PYTHONPATH=/root/robot_ws/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/build/thymio_project/build --no-deps symlink_data
+[4.120s] running develop
+[4.726s] running egg_info
+[4.783s] writing thymio_project.egg-info/PKG-INFO
+[4.784s] writing dependency_links to thymio_project.egg-info/dependency_links.txt
+[4.785s] writing entry points to thymio_project.egg-info/entry_points.txt
+[4.786s] writing requirements to thymio_project.egg-info/requires.txt
+[4.787s] writing top-level names to thymio_project.egg-info/top_level.txt
+[4.909s] reading manifest file 'thymio_project.egg-info/SOURCES.txt'
+[4.912s] writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+[4.978s] running build_ext
+[4.979s] Creating /root/robot_ws/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)
+[4.981s] Installing main script to /root/robot_ws/install/thymio_project/lib/thymio_project
+[4.982s] 
+[4.983s] Installed /root/robot_ws/build/thymio_project
+[4.984s] running symlink_data
+[4.984s] symbolically linking /root/robot_ws/build/thymio_project/config/ps4_pi.yaml -> /root/robot_ws/install/thymio_project/share/thymio_project/config
+[5.134s] Invoked command in '/root/robot_ws/build/thymio_project' returned '0': PYTHONPATH=/root/robot_ws/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/build/thymio_project/build --no-deps symlink_data

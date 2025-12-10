@@ -1,0 +1,9 @@
+source;share/thymio_project/hook/pythonpath.ps1
+source;share/thymio_project/hook/pythonpath.dsv
+source;share/thymio_project/hook/pythonpath.sh
+source;share/thymio_project/hook/ament_prefix_path.ps1
+source;share/thymio_project/hook/ament_prefix_path.dsv
+source;share/thymio_project/hook/ament_prefix_path.sh
+source;../../build/thymio_project/share/thymio_project/hook/pythonpath_develop.ps1
+source;../../build/thymio_project/share/thymio_project/hook/pythonpath_develop.dsv
+source;../../build/thymio_project/share/thymio_project/hook/pythonpath_develop.sh

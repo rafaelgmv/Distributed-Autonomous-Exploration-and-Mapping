@@ -1,0 +1,32 @@
+[0.097s] Invoking command in '/root/robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /root/robot_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[0.859s] [100%] Built target ldlidar_stl_ros2_node
+[0.981s] Invoked command in '/root/robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /root/robot_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[1.019s] Invoking command in '/root/robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /root/robot_ws/build/ldlidar_stl_ros2
+[1.045s] -- Install configuration: ""
+[1.051s] -- Execute custom install script
+[1.056s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[1.068s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/__pycache__/test_slam.launch.cpython-312.pyc
+[1.070s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py
+[1.071s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[1.072s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py
+[1.073s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/test_slam.launch.py
+[1.074s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py
+[1.075s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py
+[1.076s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py
+[1.081s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[1.085s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[1.088s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[1.089s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[1.090s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[1.092s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[1.093s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[1.094s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[1.096s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[1.097s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[1.099s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[1.100s] -- Symlinking: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[1.130s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[1.133s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[1.135s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[1.136s] -- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[1.144s] Invoked command in '/root/robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /root/robot_ws/build/ldlidar_stl_ros2

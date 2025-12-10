@@ -1,0 +1,17 @@
+[2.979s] Invoking command in '/root/robot_ws/build/thymio_project': PYTHONPATH=/root/robot_ws/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/build/thymio_project/build --no-deps symlink_data
+[4.076s] running develop
+[4.669s] running egg_info
+[4.728s] writing thymio_project.egg-info/PKG-INFO
+[4.729s] writing dependency_links to thymio_project.egg-info/dependency_links.txt
+[4.730s] writing entry points to thymio_project.egg-info/entry_points.txt
+[4.731s] writing requirements to thymio_project.egg-info/requires.txt
+[4.731s] writing top-level names to thymio_project.egg-info/top_level.txt
+[4.853s] reading manifest file 'thymio_project.egg-info/SOURCES.txt'
+[4.854s] writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+[4.918s] running build_ext
+[4.918s] Creating /root/robot_ws/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)
+[4.921s] Installing main script to /root/robot_ws/install/thymio_project/lib/thymio_project
+[4.922s] 
+[4.922s] Installed /root/robot_ws/build/thymio_project
+[4.923s] running symlink_data
+[5.072s] Invoked command in '/root/robot_ws/build/thymio_project' returned '0': PYTHONPATH=/root/robot_ws/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/build/thymio_project/build --no-deps symlink_data

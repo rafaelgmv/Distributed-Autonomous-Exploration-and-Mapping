@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000985] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.001133] (thymio_project) JobQueued: {'identifier': 'thymio_project', 'dependencies': OrderedDict()}
+[0.002503] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.052625] (thymio_project) JobStarted: {'identifier': 'thymio_project'}
+[0.100302] (-) TimerEvent: {}
+[0.116955] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[0.125126] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[0.127413] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/robot_ws/build/ldlidar_stl_ros2', '--', '-j4', '-l4'], 'cwd': '/root/robot_ws/build/ldlidar_stl_ros2', 'env': OrderedDict({'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/robot_ws/build/ldlidar_stl_ros2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.200465] (-) TimerEvent: {}
+[0.301511] (-) TimerEvent: {}
+[0.402110] (-) TimerEvent: {}
+[0.503028] (-) TimerEvent: {}
+[0.603888] (-) TimerEvent: {}
+[0.705346] (-) TimerEvent: {}
+[0.806017] (-) TimerEvent: {}
+[0.906898] (-) TimerEvent: {}
+[1.010258] (-) TimerEvent: {}
+[1.111286] (-) TimerEvent: {}
+[1.211937] (-) TimerEvent: {}
+[1.268359] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_stl_ros2_node\n'}
+[1.303356] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[1.312076] (-) TimerEvent: {}
+[1.313806] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'install'}
+[1.346370] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/robot_ws/build/ldlidar_stl_ros2'], 'cwd': '/root/robot_ws/build/ldlidar_stl_ros2', 'env': OrderedDict({'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/robot_ws/build/ldlidar_stl_ros2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[1.374610] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.379794] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.384982] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node\n'}
+[1.395727] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/__pycache__/test_slam.launch.cpython-312.pyc\n'}
+[1.397518] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py\n'}
+[1.398625] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py\n'}
+[1.399767] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py\n'}
+[1.400869] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/test_slam.launch.py\n'}
+[1.401906] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py\n'}
+[1.402963] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py\n'}
+[1.404005] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py\n'}
+[1.408229] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz\n'}
+[1.412212] (-) TimerEvent: {}
+[1.413666] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2\n'}
+[1.415884] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2\n'}
+[1.417619] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh\n'}
+[1.418934] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv\n'}
+[1.420297] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh\n'}
+[1.421556] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv\n'}
+[1.422920] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash\n'}
+[1.424221] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh\n'}
+[1.425777] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh\n'}
+[1.427436] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv\n'}
+[1.428179] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Symlinking: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv\n'}
+[1.456995] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2\n'}
+[1.461115] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake\n'}
+[1.462689] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake\n'}
+[1.466221] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml\n'}
+[1.471969] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[1.512488] (-) TimerEvent: {}
+[1.576497] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[1.612641] (-) TimerEvent: {}
+[1.713257] (-) TimerEvent: {}
+[1.813906] (-) TimerEvent: {}
+[1.914561] (-) TimerEvent: {}
+[2.015263] (-) TimerEvent: {}
+[2.115957] (-) TimerEvent: {}
+[2.216576] (-) TimerEvent: {}
+[2.317172] (-) TimerEvent: {}
+[2.417757] (-) TimerEvent: {}
+[2.518431] (-) TimerEvent: {}
+[2.618966] (-) TimerEvent: {}
+[2.719489] (-) TimerEvent: {}
+[2.820248] (-) TimerEvent: {}
+[2.921032] (-) TimerEvent: {}
+[3.021834] (-) TimerEvent: {}
+[3.122587] (-) TimerEvent: {}
+[3.223443] (-) TimerEvent: {}
+[3.324021] (-) TimerEvent: {}
+[3.424594] (-) TimerEvent: {}
+[3.525183] (-) TimerEvent: {}
+[3.625756] (-) TimerEvent: {}
+[3.726425] (-) TimerEvent: {}
+[3.827575] (-) TimerEvent: {}
+[3.928206] (-) TimerEvent: {}
+[4.028952] (-) TimerEvent: {}
+[4.041293] (thymio_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/robot_ws/build/thymio_project/build', '--no-deps', 'symlink_data'], 'cwd': '/root/robot_ws/build/thymio_project', 'env': {'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/robot_ws/build/thymio_project', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/robot_ws/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/install/thymio_project/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.129097] (-) TimerEvent: {}
+[4.229679] (-) TimerEvent: {}
+[4.330309] (-) TimerEvent: {}
+[4.430922] (-) TimerEvent: {}
+[4.531495] (-) TimerEvent: {}
+[4.632184] (-) TimerEvent: {}
+[4.732877] (-) TimerEvent: {}
+[4.833563] (-) TimerEvent: {}
+[4.934151] (-) TimerEvent: {}
+[5.034844] (-) TimerEvent: {}
+[5.106015] (thymio_project) StdoutLine: {'line': b'running develop\n'}
+[5.134981] (-) TimerEvent: {}
+[5.235679] (-) TimerEvent: {}
+[5.336356] (-) TimerEvent: {}
+[5.436879] (-) TimerEvent: {}
+[5.537551] (-) TimerEvent: {}
+[5.638337] (-) TimerEvent: {}
+[5.694301] (thymio_project) StdoutLine: {'line': b'running egg_info\n'}
+[5.738473] (-) TimerEvent: {}
+[5.747548] (thymio_project) StdoutLine: {'line': b'writing thymio_project.egg-info/PKG-INFO\n'}
+[5.748559] (thymio_project) StdoutLine: {'line': b'writing dependency_links to thymio_project.egg-info/dependency_links.txt\n'}
+[5.749367] (thymio_project) StdoutLine: {'line': b'writing entry points to thymio_project.egg-info/entry_points.txt\n'}
+[5.750031] (thymio_project) StdoutLine: {'line': b'writing requirements to thymio_project.egg-info/requires.txt\n'}
+[5.750616] (thymio_project) StdoutLine: {'line': b'writing top-level names to thymio_project.egg-info/top_level.txt\n'}
+[5.838615] (-) TimerEvent: {}
+[5.867367] (thymio_project) StdoutLine: {'line': b"reading manifest file 'thymio_project.egg-info/SOURCES.txt'\n"}
+[5.872302] (thymio_project) StdoutLine: {'line': b"writing manifest file 'thymio_project.egg-info/SOURCES.txt'\n"}
+[5.934103] (thymio_project) StdoutLine: {'line': b'running build_ext\n'}
+[5.934691] (thymio_project) StdoutLine: {'line': b'Creating /root/robot_ws/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)\n'}
+[5.937074] (thymio_project) StdoutLine: {'line': b'Installing main script to /root/robot_ws/install/thymio_project/lib/thymio_project\n'}
+[5.938237] (thymio_project) StdoutLine: {'line': b'\n'}
+[5.938801] (-) TimerEvent: {}
+[5.939235] (thymio_project) StdoutLine: {'line': b'Installed /root/robot_ws/build/thymio_project\n'}
+[5.939919] (thymio_project) StdoutLine: {'line': b'running symlink_data\n'}
+[6.039125] (-) TimerEvent: {}
+[6.086593] (thymio_project) CommandEnded: {'returncode': 0}
+[6.123819] (thymio_project) JobEnded: {'identifier': 'thymio_project', 'rc': 0}
+[6.127167] (-) EventReactorShutdown: {}

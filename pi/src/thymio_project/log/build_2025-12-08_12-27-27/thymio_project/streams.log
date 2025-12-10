@@ -1,0 +1,17 @@
+[2.944s] Invoking command in '/root/robot_ws/src/thymio_project/build/thymio_project': PYTHONPATH=/root/robot_ws/src/thymio_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/src/thymio_project/build/thymio_project/build --no-deps symlink_data
+[4.077s] running develop
+[4.687s] running egg_info
+[4.747s] writing thymio_project.egg-info/PKG-INFO
+[4.747s] writing dependency_links to thymio_project.egg-info/dependency_links.txt
+[4.748s] writing entry points to thymio_project.egg-info/entry_points.txt
+[4.749s] writing requirements to thymio_project.egg-info/requires.txt
+[4.750s] writing top-level names to thymio_project.egg-info/top_level.txt
+[4.874s] reading manifest file 'thymio_project.egg-info/SOURCES.txt'
+[4.877s] writing manifest file 'thymio_project.egg-info/SOURCES.txt'
+[4.942s] running build_ext
+[4.943s] Creating /root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages/thymio-project.egg-link (link to .)
+[4.945s] Installing main script to /root/robot_ws/src/thymio_project/install/thymio_project/lib/thymio_project
+[4.946s] 
+[4.947s] Installed /root/robot_ws/src/thymio_project/build/thymio_project
+[4.947s] running symlink_data
+[5.097s] Invoked command in '/root/robot_ws/src/thymio_project/build/thymio_project' returned '0': PYTHONPATH=/root/robot_ws/src/thymio_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/src/thymio_project/build/thymio_project/build --no-deps symlink_data

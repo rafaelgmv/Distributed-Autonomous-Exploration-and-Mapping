@@ -1,0 +1,94 @@
+[1.044s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb7b6a8a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb7b8bc80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb7b8bc80>>, mixin_verb=('build',))
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.406s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.410s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[1.414s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.416s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/robot_ws/src/thymio_project'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.685s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'thymio_project'
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.844s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'cmake_args' from command line to 'None'
+[1.844s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'cmake_target' from command line to 'None'
+[1.844s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'cmake_clean_cache' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'cmake_clean_first' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'cmake_force_configure' from command line to 'False'
+[1.845s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'ament_cmake_args' from command line to 'None'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'catkin_cmake_args' from command line to 'None'
+[1.846s] Level 5:colcon.colcon_core.verb:set package 'thymio_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.846s] DEBUG:colcon.colcon_core.verb:Building package 'thymio_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/robot_ws/src/thymio_project/build/thymio_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/robot_ws/src/thymio_project/install/thymio_project', 'merge_install': False, 'path': '/root/robot_ws/src/thymio_project', 'symlink_install': True, 'test_result_base': None}
+[1.847s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.854s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/robot_ws/src/thymio_project' with build type 'ament_python'
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('thymio_project', 'ament_prefix_path')
+[1.877s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/hook/ament_prefix_path.ps1'
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/hook/ament_prefix_path.dsv'
+[1.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/hook/ament_prefix_path.sh'
+[1.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.809s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/robot_ws/src/thymio_project'
+[3.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_ws/src/thymio_project/build/thymio_project': PYTHONPATH=/root/robot_ws/src/thymio_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/src/thymio_project/build/thymio_project/build --no-deps symlink_data
+[13.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('thymio_project', 'pythonpath_develop')
+[13.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_ws/src/thymio_project/build/thymio_project/share/thymio_project/hook/pythonpath_develop.ps1'
+[13.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_ws/src/thymio_project/build/thymio_project' returned '0': PYTHONPATH=/root/robot_ws/src/thymio_project/build/thymio_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/robot_ws/src/thymio_project/build/thymio_project/build --no-deps symlink_data
+[13.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_ws/src/thymio_project/build/thymio_project/share/thymio_project/hook/pythonpath_develop.dsv'
+[13.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_ws/src/thymio_project/build/thymio_project/share/thymio_project/hook/pythonpath_develop.sh'
+[13.562s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project' for CMake module files
+[13.568s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project' for CMake config files
+[13.573s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project/lib'
+[13.574s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project/bin'
+[13.575s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project/lib/pkgconfig/thymio_project.pc'
+[13.577s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project/lib/python3.12/site-packages'
+[13.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('thymio_project', 'pythonpath')
+[13.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/hook/pythonpath.ps1'
+[13.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/hook/pythonpath.dsv'
+[13.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/hook/pythonpath.sh'
+[13.593s] Level 1:colcon.colcon_core.environment:checking '/root/robot_ws/src/thymio_project/install/thymio_project/bin'
+[13.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(thymio_project)
+[13.596s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/package.ps1'
+[13.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/package.dsv'
+[13.609s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/package.sh'
+[13.617s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/package.bash'
+[13.623s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_ws/src/thymio_project/install/thymio_project/share/thymio_project/package.zsh'
+[13.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_ws/src/thymio_project/install/thymio_project/share/colcon-core/packages/thymio_project)
+[13.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.635s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.687s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.688s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[13.689s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/robot_ws/src/thymio_project/install/local_setup.ps1'
+[13.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/robot_ws/src/thymio_project/install/_local_setup_util_ps1.py'
+[13.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/robot_ws/src/thymio_project/install/setup.ps1'
+[13.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/robot_ws/src/thymio_project/install/local_setup.sh'
+[13.720s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/robot_ws/src/thymio_project/install/_local_setup_util_sh.py'
+[13.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/robot_ws/src/thymio_project/install/setup.sh'
+[13.734s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/robot_ws/src/thymio_project/install/local_setup.bash'
+[13.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/robot_ws/src/thymio_project/install/setup.bash'
+[13.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/robot_ws/src/thymio_project/install/local_setup.zsh'
+[13.751s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/robot_ws/src/thymio_project/install/setup.zsh'
