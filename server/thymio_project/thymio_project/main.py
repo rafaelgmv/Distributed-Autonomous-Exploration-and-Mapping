@@ -123,7 +123,7 @@ class ThymioBrain(Node):
             if self.is_exploring:
 
                 # Verify IR sensors: if any front sensor > threshold, emergency stop
-                front_prox = prox[0:5] # Apenas os 5 da frente
+                front_prox = prox[0:5]
                 max_ir = max(front_prox)
 
                 if max_ir > IR_THRESHOLD:
@@ -152,8 +152,8 @@ class ThymioBrain(Node):
                     ranges[ranges == 0] = 10.0 # avoid outliers
                     
                     # analyze front of the robot (counterclockwise)
-                    left_cone = np.min(ranges[0:30])   # 0 a 30 graus 
-                    right_cone = np.min(ranges[-30:])  # 330 a 360 graus
+                    left_cone = np.min(ranges[0:30])   # 0º a 30º 
+                    right_cone = np.min(ranges[-30:])  # 330º a 360º
                     
                     min_dist = min(left_cone, right_cone)
 
@@ -178,7 +178,7 @@ class ThymioBrain(Node):
                             
                     else:
                         # cruise mode
-                        self.th[self.id]["leds.top"] = [0, 0, 32] # AZUL (LIVRE)
+                        self.th[self.id]["leds.top"] = [0, 0, 32]
                         tgt_l = ROBOT_SPEED
                         tgt_r = ROBOT_SPEED
                 
